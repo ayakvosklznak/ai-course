@@ -37,7 +37,7 @@ mkdir -p .opencode/skills
 
 ```bash
 git status --short
-git diff --
+git diff
 git diff --stat
 ```
 
@@ -568,7 +568,7 @@ touch docs/requirements-discovery.md docs/requirements-review.md
 Вставьте содержимое skills из примеров выше. Проверьте точные пути и имена:
 
 ```bash
-find .opencode/skills -maxdepth 3 -type f -print
+find .opencode/skills -type f -print
 cat .opencode/skills/grill-me/SKILL.md
 cat .opencode/skills/requirements-review/SKILL.md
 git status --short
